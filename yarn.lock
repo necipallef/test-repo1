@@ -788,6 +788,11 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
+"@fingerprintjs/fingerprintjs-pro-react-native@2.0.0-test.1":
+  version "2.0.0-test.1"
+  resolved "https://registry.yarnpkg.com/@fingerprintjs/fingerprintjs-pro-react-native/-/fingerprintjs-pro-react-native-2.0.0-test.1.tgz#d35c46126869e1a34a627c9c637de21889aa8fb3"
+  integrity sha512-MYKHrknWJ7ukgRD1rgAcpuxUj2FLUjh8ihllJUyMg0anXyYsnnevXIX9MVNyKjSIqlUWq7kaAkZnyzA1jdm6Sg==
+
 "@hapi/hoek@^9.0.0":
   version "9.3.0"
   resolved "https://registry.yarnpkg.com/@hapi/hoek/-/hoek-9.3.0.tgz#8368869dcb735be2e7f5cb7647de78e167a251fb"
