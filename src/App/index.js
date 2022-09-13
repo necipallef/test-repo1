@@ -9,7 +9,7 @@ function Screen1() {
   const {isLoading, error, data, getData} = useVisitorData();
 
   useEffect(() => {
-    //getData();
+    getData();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
@@ -28,16 +28,11 @@ function Screen1() {
   return <Text>unexpected</Text>;
 }
 
-function Screen2() {
-  return <Text>screen 2</Text>;
-}
-
 export function App() {
   return (
     <FingerprintJsProProvider apiKey={'ztukooZ3oRmG8FgOXMva'}>
       <SafeAreaView>
-        {/*<Screen1 />*/}
-        <Screen2 />
+        <Screen1 />
       </SafeAreaView>
     </FingerprintJsProProvider>
   );
